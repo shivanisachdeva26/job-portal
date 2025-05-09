@@ -1,8 +1,29 @@
-# React + Vite
+# 💼 Job Portal Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Job Portal web app where job seekers can search and apply for jobs, and recruiters can post job listings and manage applications. Built using (Supabase, React , javascript , Clerk , Zod).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- User authentication with roles (Job Seeker / Recruiter)
+- Job posting and management (for recruiters)
+- Job search and filtering (for seekers)
+- Application submission and status tracking
+- Resume Download
+- Responsive design
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React.js
+- ShadCn UI Components
+
+**Backend:**
+- Clerk
+- Supabase
+**Other Tools:**
+- Clerk for authentication
+- React hook forms and Zod
